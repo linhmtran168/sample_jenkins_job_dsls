@@ -1,6 +1,6 @@
 listView('Generated Jobs') {
     jobs {
-        regex(/test-job.*/)
+        regex(/.*test-job.*/)
     }
     columns {
         status()
