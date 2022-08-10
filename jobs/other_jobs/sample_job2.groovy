@@ -38,7 +38,7 @@ job.with {
             startNotification(false)
             includeTestSummary(false)
             includeCustomMessage(true)
-            customeMessage('Super Dep Trai')
+            customMessage('Super Dep Trai')
             commitInfoChoice('NONE')
             tokenCredentialId('slack-token')
         }
