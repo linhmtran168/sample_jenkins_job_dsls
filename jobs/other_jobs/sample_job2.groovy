@@ -37,7 +37,8 @@ job.with {
             notifyRepeatedFailure(false)
             startNotification(false)
             includeTestSummary(false)
-            includeCustomMessage('ABC 134')
+            includeCustomMessage(true)
+            customeMessage('Super Dep Trai')
             commitInfoChoice('NONE')
             tokenCredentialId('slack-token')
         }
